@@ -3,14 +3,18 @@ $background-dark: #0B0D17;
 $text-dark: #18191F;
 $text-light: white;
 
+html, body{
+    overflow-x: hidden;
+}
+
 body {
-  overflow-x: hidden;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   width: 100%;
+  position: relative;
 }
 
 p{
