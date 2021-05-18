@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;800&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="./assets/css/main.css">
   <title>Front End Dev Test</title>
 </head>
 <body>
   <header>
-    <div class="logo"></div>
+    <div class="logo"><img src="./assets/img/logo-dark.svg" alt="Landify Logo"></div>
     <nav>
       <ul>
         <li><a href="">How it works</a></li>
@@ -19,6 +20,12 @@
         <li><a href="">How it works</a></li>
         <li><a href="">Support</a></li>
       </ul>
+        <button class="cta">Buy now</button>
+        <div class="hamburger">
+          <div class="hamburger-bar"></div>
+          <div class="hamburger-bar"></div>
+          <div class="hamburger-bar"></div>
+        </div>
     </nav>
   </header>
   <main>
@@ -28,40 +35,51 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nunc odio in et, lectus sit lorem id integer.</p>
         <button class="cta">Button</button>
       </div>
-      <div class="hero-image"></div>
+      <div class="hero-image">
+        <div class="purple-circle">
+        <img src="./assets/img/Web Preview.png" alt="Web Preview">
+        </div>
+      </div>
     </section>
     <section class="steps">
       <h2>How it works</h2>
       <div class="steps-content">
         <div class="step">
-          <img src="" alt="">
+          <img src="./assets/img/create.svg" alt="Create">
           <h3>Create your site</h3>
           <p>Create an account to get started.</p>
         </div>
         <div class="step">
-          <img src="" alt="">
+          <img src="./assets/img/add-content.svg" alt="Add content">
           <h3>Add Contents</h3>
           <p>Add contents and pages to your site.</p>
         </div>
         <div class="step">
-          <img src="" alt="">
+          <img src="./assets/img/launch.svg" alt="Launch">
           <h3>Publish</h3>
           <p>Now publish to make your site live!</p>
         </div>
       </div>
     </section>
     <section class="download">
-      <h2>Fasten your website creation process with Landify UI Kit</h2>
+      <div class="download-content">
+        <h2>Fasten your website creation process with Landify UI Kit</h2>
+      </div>
       <button class="cta cta-secondary">Download Now</button>
     </section>
   </main>
   <footer>
     <div class="footer-logo">
+      <img src="./assets/img/logo-light.svg" alt="Landify Logo">
     </div>
     <div class="copyright">
       <span>© 2020 Landify UI Kit. All rights reserved</span>
     </div>
     <div class="footer-socials">
+      <a class="social-link"><img src="./assets/img/social.svg" alt=""></a>
+      <a class="social-link"><img src="./assets/img/social-1.svg" alt=""></a>
+      <a class="social-link"><img src="./assets/img/social-2.svg" alt=""></a>
+      <a class="social-link"><img src="./assets/img/social-3.svg" alt=""></a>
     </div>
   </footer>
 </body>
